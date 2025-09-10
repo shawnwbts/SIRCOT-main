@@ -19,12 +19,11 @@ In the data folder, we store the data sets after processing, including the train
 │ ├── data(Functions and comments of training and testing sets)
 │ │ 
 │ ├── evaluation
-│ │ ├── evaluation1.py (evaluate S-S Tex.Sim.)	
-│ │ ├── evaluation2.py (evaluate SIDE)
-│ │ ├── evaluation3.py (evaluate S-S Sem.Sim. and S-C Sem.Sim.)
+│ │ ├── S-STexSimEvaluation.py (evaluate S-S Tex.Sim.)	
+│ │ ├── S-SSemSimEvaluation.py (evaluate S-S Sem.Sim.)
+│ │ ├── S-CSemSimEvaluation (evaluate S-C Sem.Sim.)
 │ │
 │ ├── model(GraphCodeBert vector)
-│ │ ├── hard-negatives/141205 (trained model for SIDE)
 │ │
 │ ├── inspection notes(Score records of three volunteers on https://zenodo.org/records/15093887)  
 ```
