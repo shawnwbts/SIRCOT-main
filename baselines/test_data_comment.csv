@@ -1,0 +1,2212 @@
+Owner can transfer out any Ether
+Add wallet address to wallets list
+Using this function a user transfers tokens and participates in operating jackpot User sets the total transfer amount that includes the Jackpot reserving deposit and custom reserving percentage
+admin can remove the allocated tokens
+Returns true if the game is in stopped mode
+Withdraw accrued dividends and coupons
+Start multiple auctions for better anonymity
+return toPledge The id for the pledge being adjusted or created
+requires an odd number of bets and your bet is the last one
+Get vendor ids return The vendor ids and the next id
+Internal check to see if at least 1000 segments passed without withdrawal prior to rewarding a cluster
+delay the timelocks for all accounts
+Converts a uint256 to a decimal string
+called by the owner to burn all unsold tokens
+Internal function to calculate the amount in wei according to a price return the amount in wei
+Burn away the specified amount of DARFtoken tokens
+This interfaces will be implemented by different VZT contracts in future
+This function will return the total amount of tokens
+Must be called after crowdsale ends to forward all funds
+Converts a given number into a string with hex representation return The hex representation as string
+Allow this agent to call the airdrop functions
+standard ERC20 compatible balance accessor
+owner set fallback function mode
+Get number of Rick holders in Portal Gun
+Muda o dono do contrato
+Sets a new passport logic implementation as current one
+Used for forcing ensureStage modifier
+Update participant cap for tier 2
+Get user game info connected to current game
+Issue tokens for investors who paid in other cryptocurrencies
+bit from 0 to 255
+Disable transfer unless explicitly enabled
+This struct does not exist outside the context of a battle the name of the battle type
+Returns if an users has KYC approval or not return A boolean representing the user's KYC status
+dev can stop selling this does NOT DISABLE withdrawing
+Set a price of token to rebuy
+Allows owner to transfer raised amount
+Used to end the Presale
+Get balance of a payee return balance
+Creates a new CSCToken instance
+For user to update their own secret note
+Function set new Ico start time
+Set the exchange oracle after crowdsale
+Withdraw divs and send to bankroll
+Automatocally forwards ether from smart contract to owner address
+These helper functions are exposed for changing the website dynamically
+Returns true iff the value is contained in the set
+Sets wallet to which ICO ETH funds are sent
+Removes an address from the list of agents authorized to mint debt tokens
+Creates a new centralized oracle contract return Oracle contract
+Sets the purchase price of tokens by contract
+returns player info based on address return player ID player eth balance player MFCoin general vault affiliate vault
+Allows merchant to withdraw funds to beneficiary address with a transaction
+Checks if the goal or time limit has been reached and ends the campaign return false when contract does not accept tokens
+Checks if an address can handle the ticket type
+getAdsLength tells you how many ads there are
+the function of adding to balances
+Utility function for heapSort return lcI The index of left child
+Token owner to call this to initiate final distribution in case of project wind up
+return the number of deployed
+Reclaim all ERC20 compatible tokens accidentally sent to the SGM token contract
+Set the price of a gift
+Check whether transfer is valid for locked tokens
+get total bet amount for address for team
+return string The resulting ASCII string value
+return true if buyer is whitelisted
+Function to stop minting tokens irreversable
+Function to approve account to spend owned tokens
+Internal functions to sell tokens
+Function to allow the actual Committee Room upgrading the application return The index of the revision
+Mint new tokens and send them to specific address
+gets API used for tests
+reset lock for address makes tokens lockable for address again
+Enable transfering tokens of locked account
+sends any left over funds to the wallet
+Change the admin wallet address
+transfer the state from intable to transferrable
+Set previously listed token to delisted
+described in old version of the standard use the more flexible transferFrom
+Allows the owner to mint new tokens return Boolean to signify successful minting
+Allow owner to sell his zone
+Allows the owner to change market fees
+Get the amount of PublicSale tokens left for purchase return uint256 the count of tokens available
+Set transferEnabled variable to false
+calculate players total amount of carrots including the unrecorded
+Function to set addresses that will be able to burn tokens
+Returns the remaining possibled sale amount for a given wallet return amount remaining
+return param1 licensedState The state of license
+Gets the jackpot after fees
+transfers token amounts to other ICO platforms
+Determines who has to be paid for a given requestId recorded with an error status
+Add owners to the list
+Users can withdraw their funds
+Returns how many token can be withdrawn on specific date
+Function to override ICO dates to allow secondary ICO
+Returns token balance by user address return token acount on the user balance
+tokens bought with BTC are sent via this method
+get index of tranche return uint256 number of current tranche in array tranches
+Admin method for re listing all genesis sales
+return The Ethereum address as an address type
+The cost function doesn't include the bonuses calculation
+Pause Round C Set Ico status to RoundCPaused
+Transfer the WeTrust signer of NFT contract to a new address
+Validates parameters and starts crowdsale
+convinient function for read token's owner
+function to get the users who are awaiting the transfer of tokens can only be called by the owner this function would work in write mode
+Function used by ICO Contract to send ether to wallet
+Checks to see if sender is redemption ready by verifying that we have a balance and block for the sender
+Function internal to manage fund mouvement
+return True if the call correctly returned the expected value
+Sets the wallet to hold unsold tokens at the end of ICO
+returns all pixel's data
+Feel free to give money to whomever
+Withdrawal function for ERC20 tokens
+external functions allow access to our structs via functions with convenient return values
+displays current contract state in human readable form
+return Whether the transfer was successful or not Ham gui gia tri value tu mot dia chi khach hang A den dia chi khach hang B va can duoc xac thuc thu nguoi chuyen
+method to check how many tokens have been sold out till now out of 10 billion
+Check if all contributor's token are successfully distributed
+Start Round D Set ICO status to RoundDStarted
+get round stats by index
+Function for transfer tokens from contract to any address
+Returns the amount of tokens allowed by owner to spender ERC20 ERC20
+Freeze or Unfreeze an address
+Transfers given amount of currency to the beneficiary
+Change pre sale end date
+Get the number of points held by a player return The number of points
+Transfers the current balance to the cash out wallet and terminates the contract
+feature status is set to false by default
+BearCrowdSale contract instance mint token
+get minimal amount to be sent
+Get sig requirements for administrative changes return uint256 Number of sigs required
+find who owns that jingle and at what position is it in the owners arr Swap that token with the last one in arr and delete the end of arr
+check if pre sale or main sale are running
+get a block sell price set by block owner
+AnyBody can call View functions
+returns the post deployment state of the contract
+Private function to clear current approval of a given token ID Reverts if the given address is not indeed the owner of the token
+this method is used for getting information about account pending orders return has or not
+Public functions Set any public metadata needed for XNR mainnet purposes
+Overridden transferFrom method to facilitate emergency pausing
+Goal was reached return true if the crowdsale has raised enough money to be a succes
+check the total of vested tokens still locked for a particular address
+Approves tokens allocated to a beneficiary
+Get approved address for a token return The address that is approved for this token
+Remove Beercoins from the system irreversibly
+see the current price to Paycarnita
+Owner can remove allowance of designated presale contributor
+Allows anyone to transfer the Change tokens once trading has started
+Get list of transaction IDs in defined range return Array of transaction IDs
+Executed when a purchase is ready to be executed
+burn token if token is not sold out after Public
+is ref link available for the current user
+add member to blocksquare group
+proxy for the bancor formula sale return calculation return sale return amount
+receive gambler's money and start betting
+It is predicted that often a new era comes with a mint price change
+Update the ETH price for the token sale
+return Whether the paused state is active
+Trading limited requires 3 weeks to have passed since the sale closed
+set a new Admin representative
+reverts if addr does not have role
+Pops the first entry from the linked list return uint256 the removed node
+proxy updates to main contract
+transfer balance back to core contract
+Returns next transcoder in pool for a given transcoder
+Allows dev team to retrieve adminPool
+Buyer must by within assigned batch period
+remove a role from an address
+This function safely sends the ETH by the passed parameters
+Extend parent behavior requiring purchase to respect the minimum and maximum contribution limit
+internal function to convert a hash to an eth signed message and then recover the signature and check it against the signer role return bool
+Check whether a given block is mature
+return true for case of success
+this is called to ensure that only valid Searchers can be added to the Lighthouse returns an arbitrarily chosen number
+Transfer tokens from one address to another return true if the transfer was succeeded
+get maximum amount to be sent
+Withdraw all funds and kill fund smart contract
+Return true if given address have been refunded
+Transfers a part of the funds from the contract to the specified withdraw wallet address
+Burn specified number of PLTN tokens
+Called by the owner of the contract to allow tokens to be distributed
+Get number of empty indexes
+add a new activity account
+function that is called when transaction target is an address
+Returns bonus for given amount
+show value of referral of 2 nd level percent
+Returns the appropriate token contract
+Owner can burn existing tokens
+Check if team wallet is unlocked
+'owner' can set maximum ether to accept
+reserves support eth to token
+Allows the owner of the contract to pause acceptingDeposits
+distribute ether to every winner as they choosed odds
+Allocate tokens to an early contributor from the early contributor share
+disables sending fund to this contract
+The function of the frozen account
+supporter can claim tokens by calling the function
+Set the Owner to the First Torch Runner
+iterate over all account holders and balance transfer proportional bte balance should be 0 aftwards in a perfect world
+fail safe for balance transfer
+extended in TimedCrowdsale to check if purchaser is on whitelist
+Get total number of tickets held by account
+The cap determines the amount of addresses processed when a user runs the faucet
+Owner can reduce limit After call this function owner can not set new limit more than value of parametr previous call
+To remove address from whitelist
+Lock reserve tokens for 1 year
+normal user can get back their funds if in emergency
+enables an avatar to receive ethers
+Initiates a poll with canonical configured parameters at pollID emitted by PollCreated event
+Function to get back tokens from the list of addresses
+send ethers from the avatar's wallet return bool which represents success
+sets the lockup contract if the crowdsale hasn't started
+Function to get Dev Tokens issued during ICO
+Multi transaction of tokens return Boolean type of transaction success
+return result code of an operation
+returns the balance of NTS for an address return balance NTS balance
+Mark the transfer as denied
+For Allocating PreSold and Reserved Tokens
+Get the number of commodities
+Get the customer's Tx of payment for MCW amount
+return bytes32 hash of metatransaction
+Initializes Prether as a Token
+Agent sign on user data by agent
+Time of the last received transaction
+Here the player can put funds to the account of the contract and get the same amount of in game currency the game server understands who puts money at the wallet address
+set minimal token sale price
+Get all the ETH stored in contract
+Create a vesting entry for the specified user
+reverts if tokens could not be destroyed
+Start of the crowd sale can be set only once
+The amount of diamond caps scanned so far
+The withdraw of Tokens from the contract after the end of ICO
+Uses transferFrom so you'll need to approve some tokens before this one to this contract address
+Respond to Evil Morty token transfer
+returns owner address using ticket number
+just for test cashin and cashout on small amount before let it go
+Withdraws locked GNO if endTime is past
+Will set the Maximum Characters each message can have
+Failsafe mechanism Allows owner to retrieve tokens from the contract
+Gets the owner of the specified token ID return owner address currently marked as the owner of the given token ID
+Distribute tokens from the reserve
+Number of tokens currently in the Lottery pool
+Internal function to clear current approval of a given land ID
+get contract address by its ID
+to prolongate a deal for some days
+Allows the current owner to add new grant
+Set the ico token contract
+Shows if the cap has been reached
+Function to end the crowdsale by setting the stage to Ended
+Updates ipfs multihashes of a particular certificate
+used by a new owner to accept a token ownership transfer can only be called by the contract owner
+Returns the minimum of two unsigned integers return The minimum of two unsigned integers
+Revoke oracle role from an address
+convert to section nums with you consume tickets
+this function is not const because it writes hasParticipated
+Referral percent calculating by contract balance
+Transfers tokens held by timelock to beneficiary
+Allow Address to Spend on Contract
+return Get time to end of the competition
+Check the KYC status of the buyer
+method that deliver token to user
+remove user wallet from whitelist
+Buy tokens by sending ETH to the contract
+Pause Round A Set Ico status to RoundAPaused
+Get discount percent for number of tokens
+Return current phase index return current phase id
+This function can be used by the owner of a token to modify the current price
+fallback function can be used to Procure tokens
+Update public key for xIPFS
+The owner can turn off accepting new ether
+Refund payments if crowdsale is finalized
+Transfers token ownership from Pre sale to Sale
+Calculate current bonus in tokens
+function to retrive vanity url from address
+BK Ok Only owner can assign new proposed owner
+add amount of invest by the address of investor
+Sets the contract to finalized
+convert eth to coin return return back coins
+return the token price with the fees
+return If the given address has permission or not
+Must be view for mocking purposes
+Called by the owner of the contract to modify the sale state
+Determining the current status of the contract
+Collect payout for the given address
+setup function to be ran only 1 time setup token address
+send ether to the fund collection wallet override to create custom fund forwarding mechanisms
+Returns tokens available for transfer for a specified address
+Check if contract has ended
+Returns an array of votes given to the project corresponding to array of users passed in function call return array of votes given by passed users
+set the new released period length of an account
+Function to enable token transfers
+Approve spender to transfer amount of tokens from your address ERC20 ERC20
+Return time when next game will start
+this will burn NSPs stuck in contracts
+Claim tokens once sale is over
+withdraw balance from contract if emergency
+lets the owner withdraw from the bankroll
+solhint disable next line no unused vars
+Adds single address to whitelist
+transfer an amount of TMX Global Tokens to an Ethereum address
+Overrides ERC20 interface to prevent interaction before finalization
+Creates a new Security Token and saves it to the registry
+function through which owner can transfer the tokens to any address use this which to properly display the tokens that have been sold via ether or other payments
+Gets whether or not a buyer exceeded their approved amount in the last seller payout
+Set current price of one Ether in dollars
+Transfer tokens from vault to account if sales agent is correct
+function calculate the total no of tokens with bonus multiplication in the duration of presale
+functions below this line are onlyToken
+Transfer ownership of token back to wallet
+return the loyalty reward balance of the member in question
+Make sure no eth funds become stuck on contract
+Contract's total ETH balance including divs
+Release all the bets back to the bettors if the oracle result cannot be verified
+Get value of ticket held in each winning caste
+return retreive the current AI42 INDEX value
+allow actors to view their tx
+Gets the balance of the sender's address
+this method is used to calculate Developer's Cut in the game
+returns true if the list exists
+convert and address to bytes format
+For seeing how much balance is in the contract
+method for direct contract replenishment with ETH
+Send tokens to beneficiary by owner
+Calculates the rate with bonus in the publis sale
+Allow Admin to reclaim all unclaim tokens back to the specified wallet
+This function is used to mint additional tokens only admin can invoke this function
+ability to set new certifier even after the sale started
+allows owner to burn tokens that are not sold in a crowdsale
+delete safe values in storage
+Owner can transfer other tokens that are sent here by mistake
+Changes the contract state after purchase
+"use this when extending ""has changes"""
+Returns the amounts paid out for the given week
+Calculate trade to buy eggs
+allows the owner to change the signer address
+Removes the entire contract from the blockchain and invalidates all signatures
+use in case of depricate this contract or for gas reclaiming after vote
+Utility to help seek fo specyfied document
+fucntion to change the max cap usd
+sends ETH to MOER team
+Allow the owner to withdraw STAKE tokens
+create new subtoken with unique tokenId return uint256 representing the total amount of tokens
+NOTES related functions payable functions
+Get details about a given series
+Gets the token id for the specified UUID
+admins may add or remove games
+Function that ends sales Made to insure finishing of sales starts refunding
+Allows anyone to execute a confirmed transaction
+Transfer coin for a specified addresses
+Get dividends for this contract
+Check an address to see if it is a controller
+returns the total amount of bets in the game
+this function will revert all ether paid to this contract
+enables early finalization of crowdsale
+get current user total granted token amount
+return array of id factory
+Must be called only in special cases
+check if the given account has enough balance more than given amount
+get the deposit address by index
+return realDelta The real timeDelta applied interest The interest gained in the realDelta time
+Get the Highest Miles Owner per each Medal Leader
+Return a contract address of the supported token
+returns the total number of pixels generated
+bla bla bla nerd shit
+return true if the transaction can buy tokens from ICO
+decrease the remaining locked amount of an account
+return uint256 representing the amount owned by the passed address
+Adjusting the hasEnded function to a case where all tokens were sold
+Method called by owner of contract to withdraw funds
+deprecate current contract in favour of a new one
+add a new approver only admin can perform this function
+get the balance of current asset pool
+function to delete a member from the list that could remove an animal from egg phase can only be called from owner wallet
+Allow admin to unlock everything
+returns amount of ether converted into eUSD
+add admin role to an address
+Gets the balance of a specified account
+Set address of wallet where investment will be transfered for further using in business transactions
+withDraw Ether to a Safe Wallet
+Get the Highest Price Owner per each Medal Leader
+Set allowance for other address
+Multiple claim token for the list of specified address
+set the minimum waiting time for withdrawal of funds of a started but not finished game
+Set the max amount of styles available
+Investors can claim ether refund if total raised fund doesn't reach our softcap
+Allow another contract to spend some tokens on my behalf
+Check contribution cap for only tier 1 and 2
+Add to the counter The function returns whether this current addition makes the counter reach or cross its target value
+Verify contract association with NTRY Token
+continue function to continue crowdsale for contribution
+return the number of knights
+Constructor passing the parent address and the total supply parent here is RAX Token
+Function to set new allowed address
+return true if the transaction can buy tokens in presale
+sets the fee to charge on each purchase
+Preliminary game result before real transaction is mined
+override record every token transfer count
+solhint enable function max lines
+Return the balance of a given player
+We override transferFrom methods of the parent ERC721Token contract to allow its functionality to be frozen in the case of an emergency
+Allow owner to increase the end date of the crowdsale as long as the crowdsale is still running
+Transfers token to the specified address
+Time of the last sent transaction
+return KYC expiration timestamp in second
+return True if there are payments to be collected
+Set hold for investing address
+return true if user has sufficient balance of tokens
+query current blance of fees
+Set the base purchase rate for the token
+Owner function for cashing out extra ETH not needed for buying tokens
+Return the education of the citizens of a city
+time measuement is based on blocks
+future games can be added so they can't earn divs on their token balances
+Backup function in case of ETH price fluctuations
+transferred to the spender's account
+return totalSupply total supply of tokens ever emitted
+in case the whitelisting admin need to be changed
+Transfers ownership from the migrator to a new address
+ERC223 and ERC20 functions and events
+sets the amount of gas to be sent to oraclize
+Check the state of the contract return bool Return true if the contract is in the WhitelistApplicant period
+Get available amount of tokens in the specified pool return The available amount of tokens in the specified pool
+Accepts ether to contract for oraclize queries and direct funding
+Method to fetch collected ore details
+counter from random number generator
+The AO set the NameTAOPosition Address
+Handles the creation of the GainmersTOKEN return the StandardToken
+Convinience function to access the shares
+Any transaction sent to the contract will trigger this anonymous function All ether will be sent to the purchase function
+transfer ethers from contract account
+Total amount of wei given via fallback function
+Public function that allows the owner to whitelist multiple entries
+Returns payment info by payment data in json
+ERC223 Transfer to a contract or externally owned account
+Only full amount of Ether can be sent back to the contributor
+For owner to check registered user address based on index
+allow anyone sends funds to the contract
+Get the current balance of tokens return uint256 How many tokens there are currently
+authorise an account to participate
+Remove users from allocation list
+God can set the realty contract
+return List of checkpoint times
+approving transference of tokens for third party
+actually probably just want a length getter here as default public mapping getters are pretty expensive
+function for return non sold tokens to dev account after crowdsale
+Time of the last transaction
+Check how many tokens are remaining for distribution
+Get an address's FUEL allowance
+Set transferEnabled variable to true
+Allow contract owner to burn token
+this methohd can only be called by controller contract in case of timestamp errors
+return array of address of all teller
+Setter for the enforce flag only updatable by the owner
+Create new instance of ico token contract
+Calculates bonuses based on current stage
+Checks if user has revealed for specified poll return Boolean indication of whether user has revealed
+Declare a master at another address
+Transfer tokens from one address to another by agents within allowance limit return true
+Returns tokens locked for a specified address for a specified reason
+Withdraw the sender's contributed Ether in case the goal has not been reached
+setter for the address that is responsible for creating deposits
+The amount of all caps produced so far
+Function called by purchasers to pull leftover wei from their purchases return true if wei was withdrawn
+A helper to notify if underflow occurs for subtraction
+Gets amount for which an address is locked with locked index
+Function to extract mistakenly sent ERC20 tokens sent to Crowdsale contract
+Find the owner of an TTM return Give The address of the owner of this TTM
+allow another Ethereum account to spend Nuru Tokens from your Account
+Set gas price limit for the auction
+Returns the info of a ticket
+Changes multiplier for rarity on feed
+Set purchaser to whitelist with zone code
+Get stage is required to rethen the stage we are currently in This is necessary to check the stage details listed in the below functions
+initialize Nuru Tokenpass TMX Global Token Configurations to the Constructor
+Set crowdsale bonus percentage and its minimum
+one can get airdrop by themselves as long as they are willing to pay gas
+Allows owner to transfer funds from the collected fees pool to an approved wallet address
+Buy tokens with market order
+owner change time for startTimeIcoStage3
+check if an address owns a base
+the crowdsale owner may withdraw any amount of ether from this contract at any time
+allow to burn pre tge tokens in order to teleport them to new contract
+return Total amount of owedToken ever repaid
+Safeguard function to quickly pause a stack of contracts
+purchase 'count' of this type of pack
+Push vendor info to the vendor list
+To add address into whitelist
+Get max deposit for your investment
+To call to start the crowdsale
+the function to get the balance
+Unreserves place for unknown address specified by an index in array
+Get the total count of tokens purchased in all the Sale periods return uint256 the count of tokens purchased
+return true Purchase is withPeriod and nonZero
+This method is useful when we really need to know last transaction ts
+return true if crowdsale has started
+when sale is closed owner can drain any tokens left
+return true if investors are sending more than minimum contribution
+Add all unique participants for receiving airdrop
+Function to send token to user address
+Function to set the balance of a sender
+bonus calculation for ICO on purchase basis
+Function to access total supply of tokens
+Allow the owner to change the winning chance
+Removes an entry from the linked list return uint256 the removed node
+A bulk optimization for mintNFTNotForSale
+Function to check if the manager can perform the action or not return True if manager is enabled and has been granted needed permission
+this function requires previous approval to transfer tokens
+register the address for token sale
+Ensure that the sender is the sale admin
+helps in fetching the wallet resouce balance
+When the main Player decides to collect his fees
+Retrieve referrer and referrer reward information from the registrar
+takes ethers from zebiwallet to smart contract
+checks if the address invested
+return Whether the approval was successful or not for AfriHealth Coin
+return the invitation reward balance of the member in question
+Minimum investment is 2 ether which will be kept in the contract and the depositor will earn interest on it remember to check your gas limit
+Used by Oraclize to return value of PushData API call
+return Whether the operation was successful or not
+Allows the Hydro API to sign up official applications
+not possible to use public mapping because of array of bytes32
+Get reserved tokens for specific group
+Internal function to set the token URI for a given token Reverts if the token ID does not exist
+return true If the interest was updated
+Owner sets new address of escrow
+Quick checker on total supply
+return Price of aToken in wei
+return Address of new created standingOrder contract
+Increase approved amount to spend
+return true if pre ico crowdsale event has ended
+Retrieves the address of the owner from the name
+Fallback function which receives ether
+Constructor function Initializes the presale
+Shows if the base target cap has been reached
+only owner address can set jpMinBet
+access our log list of token contracts
+To be used only in extreme circumstances
+balance of a particular account
+Distroy issuer coins for sale in contract
+Allows contributor to collect all token alloted for all period after preiod deadline
+Dump divs and dump ETH into bankroll
+allows the manager to update the quick buy path
+Parse currency rate from oraclize response return Currency price string in USD
+Send tokens from the recipient to the recipient
+Mint DRC Tokens from serveral specific wallet addresses
+return Returns the current amount of SEGMENTS
+mint bounty tokens to beneficiary
+return byte The byte equivalent
+Can we run finalize properly
+generate a random number between 1 and 20 to seed a symbol
+shifts a bytes32 left by n positions
+Validate if crowdsale event has ended
+Allows the Hydro API to link to the Hydro token
+function to withdraw CashReserveFund funds to the owner wallet can only be called from owner wallet
+false will ignore not mounted children on this avatar and not exist children
+Function to verify that all the requirements to transfer are satisfied The destination is not the null address The tokens have been released for sale The sender's tokens are not locked in a timevault
+add a new bunny in the storage
+return bool Return true if the contract is in ICO Period
+Burns Bskt tokens return ok Whether the operation was successful
+return the sale ended at time
+exposing the total reward amount for DApp
+Get current RTE balance of bonus token vault
+Returns the current status of the crowdsale
+fee is not applied to owner and transferFeeOwner
+return contractual metadata which specifies the campaign name as a string
+return all erc721 ents unit
+member function to unlock token for trading
+only owner address can suicide emergency
+Adds list of new investors to the investors list and approve all
+Deposit into other's account Useful for services that you wish to not hold funds and not having to keep refunding after every tx and wasting gas
+Owner can mint new Tokens up to a certain limit
+The amount of diamond caps produced so far
+Returns an amount in eth equivilent to USD at the set rate
+claim your MTU or Ether
+Main function to set the beta period and sub developer
+function through which owner can remove an address from whitelisting
+Tokens amount based on investment value in wei return Amount of tokens and bonuses
+Owner can add ETH to contract
+This will fail if not called by the auction contract
+self destruct added by westlad
+Permanent stops minting return True if completed
+Decide if throw or only return ether
+token for wei according to course
+Fallback function allows ETH deposits
+allows the owner to update the gas price limit
+to check if an address is a valid contributor
+change freezing time for megacandy
+Gets the min and the max range of stats a given class id can have return statsMin An array of the lowest stats the given item can have statsMax An array of the highest stats the given item can have
+Math operations with safety checks
+To check whether address is whitelist or not
+Set the minimum amount to be of transfered in this contract to start distribution
+Sets a new treasury address
+Sets tokens contract address from which check balance of tokens
+owner can send ether to the token contract to pay dividends
+return Get RegistrantId from registrant address
+close Window and transfer Eth to wallet address
+withdraw DTH when teller delete
+Method is needed for recovering tokens accidentally sent to token address
+max and min values of a deal in ETH
+method to start the next phase of the ICO
+returns how much is currently held in escrow return totalInEscrow amount currently held in escrow
+Reject all ERC223 compatible tokens
+Allows the owner to burn the token
+this method is used to GET ALL CrySol Objects in the game
+function to transfer ownership for Vanity URL
+Buy wanchain tokens by partners
+Send token to multiple address
+Purchase price of next 1 token
+Returns the room night infomation in detail return Room night infomation in detail
+This function will be used to add a new video game by the contract creator
+called by the owner to transfer the target token to owner from this contact
+return true if event has ended
+When the brided Citizen decides to collect his fees
+Gets winner tuple after voting is finished
+Mints tokens to main wallet balance
+Returns true if the given promise has been confirmed by the recipient
+generic function to pay this contract
+Update Multiple Users Reward Amount
+allow owner to remove address from whitelist
+Updates the payout for the estates the owner has
+Queries list of tokens owned by a specific address
+Instantiate a new Trezor Multisig 2 of 3 contract owned by the three given addresses
+This function is called every time someone sends ether to this contract
+token info by Id return typeOfToken index of enum name bytes32 name of token URL bytes32 URL of token isSnatchable type of auction
+Print number of block till next expected dividend payment
+doesn't allow minting of more tokens than hard cap
+Owner can wipe all the data from the contract and disable all the methods
+set new host name for this nft contract
+Get state of a request return state
+Burn away the specified amount of Ant Coins
+default function called when values are sent
+function set ICOOver bool to true can run only from crowdsale contract
+Transfer token's contract ownership to a new owner
+Allow owner to add to the whitelist
+Function that returns any registered EOS address from the original EOS crowdsale
+Convenience helper function to check if a UTXO can be redeemed return Whether or not the UTXO can be redeemed
+The bid is canceled by the publisher
+Change delegatecall upgradable contract address
+to get the basic amount of token to be collected given the ether amount contributed
+Check the funder step lock
+Change owner of token after end of PreSale if Soft Cap has not raised
+Returns a bool indicated whether a given userName has been claimed
+will bond to an oracle on behalf of some holder return total ZAP bound to oracle
+Add users to whitelist Whitelisted users are accumulated on each round
+For pushing pre ICO records
+Create already verified users from old contract
+transfer the ownership to other Only the owner can operate
+allows admin to edit or add an available game
+function to return all the users
+A dispense feature to allocate some addresses with Xinfin tokens calculation done using token count Can be called only by owner
+Only users who are on the whitelist
+transferToContract transfers the specified amount of tokens to the specified contract address return true if transaction went through
+Finalizes the bonussale and sets up the break and public sales
+Sends a full refund of wei and reset committed tokens to zero
+function to withdraw all funds to the owner wallet can only be called from owner wallet
+Approve specified address to mint tokens
+A contract implementing SupportsInterfaceWithLookup implement ERC165 itself
+Allowance with short address attack protection
+return Length of company allocations
+Removes a signer from an entity
+"""addresses"" may not be longer than 256"
+fallback function to recieve ethers and send tokens
+Intention is that this is called off chain so block gas limit is not relevant
+isMinting checker it either mints ERC20 token or transfers them
+onlyOwner modifier only allows the contract owner to run the code
+Get minter allowance for an account
+Methods allows the owner to change whitelist component address
+Tells the version name of the current implementation return string representing the name of the current version
+Allows an address to set the affiliate address for a user
+retrieve number of all AceEquityToken in existence
+Function to pause PreICO Sets ICO status to PreIcoPaused
+transfer from the owner balance to another address
+INTERNAL METHODS DOUBLY LINKED LIST
+compute tokens given a USD value
+Trading is limited before the sale is closed
+To get all the trees on sale
+Function to batch send tokens
+return the address of the an holder
+function which charges users balance
+returns all current round info needed for front end return round id round state current eths current pot leader team ID current price per key the last out time time out gap current dead rate current dead keys alive teams team count time round started
+Releases Jiffys that have been vested for caller
+Reads the given bytes into an addtress
+Generates a random number base on last block hash
+The balance transfer to project owners
+Set default security token parameters
+Don't accept direct payments
+Set the overall maximum amount in wei that can be invested by user
+add an address to a pixel's approved list
+transfer tokens if you have been delegated a wallet
+Bailout Just in case this contract ever receives funds
+Destroy Beercoins by removing them from the system irreversibly
+return true if sale is over
+Add verified addresses to the Security Token whitelist return bool success
+store comission from unfinished hodl
+Transfer tokens to advisors from the advisor's pool
+Check if the customer's Tx of payment for MCW is spent
+batch transfer with same amount for each address
+function grantAdvisorToken Transfer advisor tokens
+receives entire player name list
+Change USD price of tokens
+These set of functions allow changing of founder and company addresses
+remove a minter role from an address
+Get the last winner address
+Pause Pre Sale Set Ico status to PreSalePaused
+withDraw ethereum when closed fund
+Method set exchange rate agent
+Update compliance proof hash for the issuance return bool success
+function to check the staking balance of a user return uint of the stake balance
+Distribute fees for multiple claims
+Check that the amount of tokens requested is less than or equal to the ammount of tokens allowed to send
+Execute sell order based on the order input parameters and the signature from the maker's signing
+calculate the cooldown of child pony
+Query what address has been particularly authorized to move an asset return bool true if the asset has been approved by the holder
+Get the tokenAddress token balance of someone
+transfer token for a specified address return bool success
+Change startTime to start ICO manually
+Makes execution of the tokens transfer method from super class
+Returns the location pointed to by the free memory pointer
+Function to record snapshot block and amount
+Collect your pending payouts using this method
+Sets up the initial balances This must be called after ownership of the token is transferred to the crowdsale
+transfer to owner any tokens send by mistake on this contracts
+Get Setting Data of a setting ID
+Allows the owner to send AIB tokens to investors who pay in currencies other than ETH
+check exist of user in whiteList
+anyone can end this round
+Project's owner can widthdraw contract's balance
+Transfer All Balance to Address
+return a hash of the given parameters
+refund ETH after unsuccessful ICO
+return true if the ICO is in pre ICO phase
+function to add a member that could remove animals from egg phase can only be called from owner wallet
+Gets document updatedVersionId with ID 0 no update for document
+Returns the amount of outcome tokens held by owner return Outcome token distribution
+returns the number of wei some amount of usd
+vestings notifies if there has been any changes in amount of locked tokens
+For this case the only metadata is the name of the human
+call by admin to get maintenance fee
+Get the token balance of address
+called by only owner to stop the emergency situation
+Burn option tokens after execution during ICO
+Main fallback to claim tokens after successful vesting Asserts the sender to be a valid owner of tokens and vesting period is over
+function for checking if hardCapReached
+Set price function for Sell
+Change maximum number of tokens sold
+return True if the Campaign has been sealed and can't receive funds
+Time limited deposit of ether
+Get the total wei in contract
+Function to send profits and unsold tokens to beneficiary
+Gets the prevNode a new node should be inserted after given the sort factor return the node which the propoded node should be inserted after
+Get the ID number of an API given it's hostname
+Bank tokens Deposit token sale proceeds to CXC Account
+change min ETH income during Window1 5
+Converts incoming eth to tokens
+function to withdraw FoundersTeamAndAdvisors funds to the owner wallet can only be called from owner wallet
+Using this function a user transfers tokens and participates in operating jackpot User sets the net value of transfer without the Jackpot reserving deposit amount and custom reserving percentage
+When the main player wants to transfer his function
+"notifico il ""congelamento"""
+return Account address of the first token holder
+calculate how much eth user have paid
+Check that double the update interval has passed since last successful price update
+allows transferring the contract ownership the new owner still needs to accept the transfer can only be called by the contract owner
+return uint256 Value in ETH or POLY
+Emergency transfer tokens to contract owner
+Bakt Functions SandalStraps compliant constructor
+fallback function which can receive ether with no actions
+allows a minter to burn some of its own tokens Validates that caller is a minter and that sender is not blacklisted amount is less than or equal to the minter's account balance
+method to place the oraclize queries
+return the token address of the token vesting
+Triggered by the master node once rewards are set and ready to validate
+Sets a new URL for getting world population via Oraclize
+fallback function to reject any ether coming directly to the contract
+Sets the address of the owner
+should limit access to specific role in implementation
+GoldFees needs to take care of Domain Offset do not do here
+check user's donated amount
+Drains any ERC20 token accidentally sent to contract
+called by the owner to set default airdrop amount
+return Whether the refund was successful or not
+Contract owner can withdraw ownerEth amount
+Sets bonuses for USD amounts
+getter to determine if address has poweruser role
+Function for the frontend to show ether waiting to be sent to Bankroll in contract
+Allows you to get ethereum from the contract
+Function to check the amount of tokens that an owner allowed to a spender return Amount of remaining tokens allowed to spent
+transfer token to owner account for burn
+Markes the document with the passed id as visible
+return total The total supply of tokens
+return False if the contribuion is closed
+Returns tokens according to rate
+Transfer token for a specified address when not paused
+UseRedEgg Hatches a defined number of red eggs into snails No ETH cost
+lock tokens for a single whole period
+give the constructor four addresses for the split
+Returns an address' balance of an artwork or token
+Transfer custom amount to a custom address
+Returns the amount of tokens allowed by the owner that can be transferred
+add graphics cards for someone else
+return The address of the RareCoin contract
+Unfreeze currently available amount of tokens
+check if address is not empty and not equal sender address
+return First redemption request ID
+Amend and option in an existing Ballot
+Whitelist Many user address at once only Owner can do this maximum of 150 addresses to prevent block gas limit max out and DoS attack this will add user address in whitelisted mapping
+Make portal gun back on fire
+check if hard cap goal is reached in USD
+Only the manager can verify accounts
+Refund on failed or aborted sale
+Function to chnage the OwnerCut only accessible by the Owner of the contract
+End sale in crrent round
+CONTRACT ADMIN The contract can have 0 or more admins some functions are accessible on the admin level rather than the owner level the owner is always an admin
+Returns the ticket price for the bet
+Change mint address Changes the address to mint
+Burning specific amount of Dexter
+Constructor for the contract to store owner's account on deployment
+Validate if the transaction can be success
+Lock a number of tokens
+set lock flag to address on the specific condition
+Withdraw Beercoins from multiple users Beercoins are only withdrawn this way if and only if a user deliberately wants it to happen by initiating a transaction on a plattform operated by the owner
+Start in the deployed stage
+get contributors' locked amount of token this lockup will be released in 8 batches which take place every 180 days
+Internal function to deploy and register a oracle return A deployed oracle contract
+logs and pays charon fees
+Issues tokens for users who made purchases in other cryptocurrencies
+get the name of an account
+Transfer limited by the tradingOpen modifier
+Fallback function receives ETH and sends tokens back
+return true if burnToken function has ended
+Check index of given address
+Owner withdraws Ether in contract
+Advocate of Setting's proposalTAOId approves the setting update
+Change authority Can only be called by authority
+getToken this may be more convinience for user to check if their vesting contract is binded with a right token return OneledgerToken
+Transfer the unsold tokens to the MIND Foundation multisign wallet Only for owner return the StandardToken created
+calculates winnings for the given bet and percent
+Function to return the total supply of the token
+transfer an amount of ACE Equity Tokens to an Ethereum address
+return true iff operation was successfully completed
+Returns amount of wei transactee has to send to fullfill transactor's request
+Get sig requirements for minor tx spends return uint256 Number of sigs required
+Sets a new renaming per character cost in wei Any CLevel can call this function
+preICO contract will send ETHers here
+Approve tokens to be transfered by 0x Token Transfer Proxy
+return Unread messages as array of message numbers
+disallow payment after unlock block
+Get a MC's info given index
+Returns true if it is possible to invest
+Append token recipe source alternative
+Init balances from old CNC chain
+Hand over the data layer authority
+return Returns whether the contribution is valid or not
+Anyone can finalize a finished round
+return the last block number mined by the miner
+Get Tokens for the company
+query the main account address of one type
+Crowdsale owners can collect ETH any number of times
+Gets a postion at the given index return market Market name stock Stock name quantity Quantity of shares held avgPrice Average price paid for shares
+CHANGE ETERNAL STORAGE CONTRACT ADDRESS
+Generate pseudo semi random number between 1 max
+Function that is called when a user or another contract wants to transfer funds to smart contract return A boolean that indicates if the operation was successful
+Function mint tokens to winners or prize funds contracts Access restricted DAO
+when the contract needs to upgrade to version 2
+Allows owner to delete commited destination address
+No Ethereum will be trapped
+set a default payable function
+return user share value in this round return share value
+Get a whitelisted user return uint256 the amount pledged by the user uint the index of the user
+we need to increase the price when the network is under heavy load
+Basic transfer of all transfer related functions
+Change the minimum and maximum amounts that TrueVND users can burn to newMin and newMax
+Gets the total number of locks for a given address
+Return the infoUrl of Chibi
+return true if the transaction can buy tokens
+Constructor to set the latest logic address
+Get payer of a request return payer address
+This function will return all of the details of our teams
+Change the owner of the token
+Set price percentage for when price exceeds or equates to price cutoff to reset to
+Function to refund funds if softcap is not reached and sale period is over
+Create CurrentToken contract and set pause
+return bool for whether ICO is running or not
+return address The current owner
+buy tickets with use your vaults
+Total Supply View Total Supply Return Total Supply
+BK Ok Only new proposed owner can accept ownership
+Returns a random number return randomNumber The random number
+return The address of the new token contract
+return true if in period or false if not
+Checks if the specified address is whitelisted
+review signatures against a list of signers Signatures must be provided in the same order as the list of signers All provided signatures must be valid and correspond to one of the signers returns the number of valid signatures returns 0 if the inputs are inconsistent
+Allows the contract to be funded in order to pay for oraclize calls
+fundTransfer used to transfer collected ether into the beneficary address
+remaing amount of blocks to win a big promo bonus
+Simply pay out tx fees appropriately
+return uint256 Natural unit of Set
+Retrieve all contracts ever created
+multiplies two values safely and returns result
+Ties a post's link to it's ID
+owner change time for startTimePreIco
+Converts a uint in a string
+set a Congress contract address for this token must change this address by the last congress contract
+function to be called when wanting to add funds to all districts
+puts a cat up for a specific address to adopt
+Get the customer's TxRegistry contract
+Shows who is the pending admin for this contract return 'pendingAdmin'
+return result of an operation
+Checks if an address is owner
+Likewise the big sister dictates the buying price
+Implementation of the standard transfer method that takes the finalize flag into account
+return uint256 Total number of tokens sold
+To extract the ether in an emergency
+check if it is the address of contract
+return Amount of unallocated tokens in the pool
+return list of every channel registered
+function to change the owner share on buying transactions can only be called from owner wallet
+Gets the total amount of deeds stored by the contract return uint256 representing the total amount of deeds
+constant means dont store and re eval on each call
+A helper to notify if overflow occurs
+send received tokens to anyone
+Function for handle token issues
+gets the address of owner of the team return owner the owner of the team's address
+allow user to transfer pharmcoin tokens
+Tracks a reverse stock split
+helper functions ordering top 20 address by number of reffered bidders array of addresses and bidder numbers are logged
+return uint256 Total number of tiers
+Set pre sale bonus off
+Receive a contribution from a DCORP member
+build batch tavern in one transaction
+To sign contract id needs to be valid and contract should assigned to participant and should not be signed already
+Returns TRUE if there is an open commissioner auction for a realWorldPlayer
+Return all ETH and tokens to original multisig
+add DTH when shop register
+replace uncursed tokens with cursed tokens
+return the account balance of the member in question
+Create a new instance of an app linked to this kernel and set its base implementation if it was not already set return AppProxy instance
+put all capital in this contract
+Get preminer allocation time by index
+EXTEND PERFORMANCE BOND EXPIRATION TIME
+Allow listing depositManager to send deposit
+add a time record of one account
+allows owners of tokens to decrease the price of them or if there is no owner the coo can do it
+return The accepted ether amount
+Liquidates your shares to P4D from a certain coin pair
+This function will return the details of a share
+Sets a new exchange rate
+Returns information about the item category of the given class id return classId The class id of the item category An array contains information about the category of the item
+Disable User from Whitelist so user can't buy token
+Set a token contract address and available tokens
+Appends a new LAND id to an Estate updating all related storage
+Checks the amount of locked tokens return Number of locked tokens
+Buy token function call only in duration of crowdfund active
+Check if User has enough ether amount in Whitelisted to buy token
+calculates the next bid amount to you can have a oneclick buy button
+Transfers ERC20 tokens from the wallet to a given address
+Configure various defaults for a script exec contract
+Reclaim all IERC20 compatible tokens
+owner can mint tokens during crowdsale withing defined caps
+Returns votes given by user return number of votes given
+Allows the current owner to transfer control of the contract to a newOwner
+return remaining Amount of remaining tokens allowed to spent
+mint can be called by the owner to create tokens for a certain receiver it will no longer work once the token supply has been frozen
+In cases where there's bugs in the exchange contract we need a way to re point
+issue the tokens for Reserved
+we have to set team token address before campaign start
+Refunds tokens to particular address
+Only to be called by Owner of this contract
+check Ace Token balance of an Ethereum account
+Add a tier with a given discount and available supply
+Get the King's current points
+Function to allow creation of new coins
+Allows the current signer to transfer control of the contract to a newSigner
+Emergency Pause and Release is called by Owner in case of Emergency
+return if the sale is open
+Function to call from other contracts to ensure that this is the proper contract
+returns total number of pieces
+Please send amount and block number to this function for locking STE tokens before block number
+Upon successfull ICO Allow owner to withdraw funds
+Sets the minimum balance needed for token distribution
+change Withdrawable for one round after every month for investor in top
+Get current tier tokens rate
+show unlocked balance of an account
+Setting up token price and ethereum USD rate
+Allows unofficial users to delete their account
+Storage seed for a script executor's execution permission mapping
+startIco starts the public ICO
+Allows the winner to withdraw the prize pot
+Reject all incoming Ether transfers
+return Whether the approval was successful or not for eBlock Coin
+Creates new tokens as long as total supply does not reach limit
+Changes dates of token distribution event
+sets the gas price to be used for oraclize quries in the contract
+Remove a quantity of tokens
+Function to enable token transfer
+Contract constructor sets initial owners and required number of confirmations
+Gets the deed ID of the specified address at the specified index return uint256 representing the ID of the deed
+return param1 bool Royalty partners exists
+Check if sell is possible
+Decoding helper functions from Seriality
+TODO solidity doesn't support returning of structs
+Transfers knight ownership to a new address
+Pause the token changer making the contract revert the transaction instead of converting
+function to allot tokens to address
+We override setApprovalForAll method of the parent ERC721Token contract to allow its functionality to be frozen in the case of an emergency
+Storing predictive event participation information The contract owner collects the event participation information and stores the prediction event participation information
+required should there be an issue with available ether
+Push order to user's order list
+Gets the Note for an Account Address
+Mints a new token with given tokenURI for an address
+Unregister DSP and return unused deposit
+Release tokens after the ICO
+function called by owner only
+Append an early purchase log
+Gives square root from number
+Updates the payout for the token the owner has
+for data tracking lets make a function to check this contracts balance
+Add extra prizes to the prize pool ETH
+Auditor can increase certified assets
+Revokes the address permission for the given kind
+Owner can refund the wrong transfered erc20
+create the MarketMaker and the CC token put all the CC token in the Market Maker reserve
+returns who has the biggest dick
+Add additional bonus tokens for subscribed investors
+Withdraw outstanding divs to internal balance
+transfers remaining unsold token amount to reward pool
+Returns true if the public sale is currently running return A boolean representing the state of the crowd sale
+Sall a token from a contract
+Send ether with the different value by a explicit call method
+admin account transfer money to users
+recover tokens tha were not claimed
+Change Official Address If Necessary
+Set exchange rate before start
+allows the owner to change the mximum
+issue token take from ethFundDeposit to user
+setting 1 USD equals X amount of wei
+unblock tokens of an voter
+send excess of tokens when de ico end
+Stores the duration of a tier
+Change USD value Change value of ETH in USD
+Owner can set address of relay contract
+updateIsVerifiedInBulk updates nicknames of Monetha users in bulk
+Function that indicates whether pre ico is active or not
+This function tells the balance of tokens at a particular address
+Get info about specific group member
+Get the last non published pull request from the queue
+Lookup the number of resource points for a certain player
+return an arbiter token from an hGame
+Get EXH token balance for provided address in lowest denomination
+Function to transfer tokens from one address to another added due to backwards compatibility with ERC20
+Internal function to add a new contractor
+Only requestor or proxy can generate the number
+Remove a group of users from whitelist A
+Gets the max profit of this game as decided by the token bankroll return uint The maximum profit
+Set the amount of tokens per one ether
+return an amount of tokens locked
+Returns the token balance of the Fees contract
+Transfers pieces of art of tokens owned by another address to an address
+false and true as arguments for freeze
+minimum fee is 1 unless same day
+Change whitelister address to another one if provided by owner
+Pays out to a DRCT token
+return true if tokensale is paused
+return total amount of ART
+MainContract used this function to verify game's contract
+Calculate the Tokens in percent over de tokens generated
+this function can be called by the contributor to claim his BTNT tokens at the end of the ICO
+Calculate the Final Sale Price after the Owner Cut has been calculated
+Get the list of units of insurace going to expire return List of units of insurance going to expire
+set total number of members
+owner or any Admin change price of tokens
+the function tranfer tokens from TeamAddress1 to investor only after 1 year
+Adds cashier account responsible for manual token issuance
+set Founder address Only owner allowed to do this
+A function for emitting events so that the Lamden Oracle can provide and register the proof for the atomic swap
+buy tokens if you can
+What is the latest campaign's deadline
+Mints and initialize Advisor reserve
+User buys KWHs and pays in Ether
+we need to get back our funds if we don't need this oracle anymore
+Registers a new passport version with its logic implementation address
+return number of decimals for this token
+Transfer token to other address
+withdraw from the affiliate pot
+Set max gas to refund when an address send ETH to buy tokens
+add ETH for escrow teller
+withdraw allows the owner of the contract to withdraw all ether collected by bell ringers
+return index of new created snapshot
+True if the current timestamp is before the allocation lock period
+Burning specific amount of PLUTUS
+get contract own token amount
+RESTRICTED Set new rules for the next game
+control funcitons only the owner may call them
+Function to get price of a player return price price of player
+Sets new multisig address to which the received ether will be sent
+to be called by owner at end of preICO and ICO
+Sets a new exchange lock time
+Set the current round index
+Refund your money for tipping user
+Owner only functions Public write functions
+Betting of number of tweets made during current round
+take the first byte of a bytes argument and return bytes1
+Uses transferFrom on the DAI token contract to send DAI from sender's address to Escrow
+Owner can transfer out any accidentally sent ERC20 tokens
+updates the balance and updates the total invested amount
+Add Address with Lock Rhem Token
+Allows admin to update the crowdsale rate
+Method to change the Ether to Dollar exchange rate
+Function for the presale to transfer tokens
+withdraw coins for marketing budget to specified address
+Function for the frontend to show ether waiting to be send to bankRoll in contract
+Appoint sales agent of token
+Overload to set the board status when we only have a boardId
+Allows anyone to transfer the SelfPayToken tokens once trading has started
+change main stop time by owner
+allow authority to freeze several addresses
+Withdraw deposit of Jackpot amount and add address to Jackpot Participants List according to transaction amount
+Withdraws tokens from Foundation reserve
+Equipment creation return Token ID of the equipment created
+The token address is set when the contract is deployed
+Update the maximum cap of this wallet
+Selects a random winner among all investors
+To withdraw fund from this contract
+returns if an address is approved to manage all another address' pixels
+Set dex to convert ERC20
+Return the alloance of a proxy
+Owner can add administrators of tokens
+Allows owner to pause puchases during the landsale
+calls ERC20's transfer function to send tokens to beneficiary
+sets new token address in case of update
+returns the current rate of the crowdsale
+Allows someone to send ether and obtain the token
+use this function to get CARDS count return Total all CARDS in the current game
+unlist allows a party to remove their order from the orderbook
+Function to allow token transfer to specific address
+returns the number of connector tokens defined return number of connector tokens
+Withdraw the current voiting amount
+this method allows to finish crowdsale prematurely
+give an address access to this role
+setting cap before the general sale starts
+removing an address from the blacklist
+return Wheter the DCORP member is accepted or not
+contract will not accept any ether sent accidently to the contract address
+Updates tokens per ETH rates before the pre sale
+cancels the battle at battleID
+Can only be called by the owner when a game is frozen
+return Array of permission flags
+team 1 is Philadelphia team 2 is New England a bet is final and you cannot change it
+get the frozen balance of account
+Returns the number of bets created
+get the incentive number return yearSum The total amount of tokens released in the current year daySum The total number of tokens released on the day currentYear Current year number
+provite current rate between source and destination token for given source amount return current reserve and rate
+Set verification status for user data
+Returns the amount in USD mill given ETH wei return amount in mill
+override to allow any CLevel to pause the contract
+allow for eth to be fed to the contract
+Sets the ICO phase 4 duration
+run it after ESlotsCrowdsale contract is deployed to approve token spending
+Allows owner to check the paused status return Whether landsale is paused
+the number of robots currently battling
+All users except deployer must check time before contributing
+view the private sale end date and time
+Initialization of the Delphy Token contract
+VIEW FUNCTIONS FOR USER INTERFACE
+the total number of allocations
+unconfirms payment made via investment id
+check the address is register for token sale
+Burns a specific amount of tokens from the target address and decrements allowance
+Allows merchant to withdraw funds to beneficiary address
+Dispatcher can change user balance
+Catch sended to contract ethers
+Executed by oraclize when multicurrency finalization is calculated
+called by the owner to set new pause flags
+Sends a special taster package to recipient Contract supply of tokens must have enough balance
+Get affiliate rate by level
+Returns all the supported digital currency tokens return All the supported digital currency tokens
+fallback function triggering the buyToken procedure
+Retrieve all YUM token left from the contract
+calculate WEI to CAK tokens to mint
+The auctions contracts can set the owner of a house after an auction
+Get buyer info struct for a specific buyer address
+event triggers for each event
+returns block when price was updated last
+called by the owner to allow everyone
+return profile info by string key
+allows endTime to be modified
+Admin function to restart attempt counts for a user
+Add distribution smart contract address
+initiate user when first visiting
+Finish the crowdsale and withdraw funds
+Returns ether according to rate
+Allow unpausing a listed PoaToken
+to allow upgrade of Rates contract
+Transfers pieces of art or tokens to an address
+Contract owner can withdraw up to ownerEth amount
+return Next redemption request ID
+withdraw some of the Ether
+function to get all animals in the egg phase list
+To change the EthPriceFeed contract if needed
+Change for private when deploy to main net
+The starting balance of the next campaign
+adds two values safely and returns result
+transfer the raised funds to the target wallet if the ICO is over and the goal has been reached
+return Timestamp when the tier starts
+BSC Tokens per 1 ETH per Tranche
+Convert an uncompressed ECDSA public key into an Ethereum address return Ethereum address generated from the ECDSA public key
+override transferFrom token for a specified address to add validDestination
+Transfers the balance of the sale auction contract to the Core contract
+for quick overview of approved Tokens
+Set the available token balance of this contract
+Cancel a STO contract proposal if the bid hasn't been accepted return bool success
+function to set reserve pricing
+Remove address from VIP List by Owner
+Informs about contributors rewardedTokens and transferredRewardTokens status
+Checks whether max ether cap is reached for presale return true if max ether cap is reaced
+Execute buy order based on the order input parameters and the signature from the maker's signing
+max and min values of a deal in tokens
+This function allows the owner to update the gas price limit public onlyOwner
+Check if the loan is mature for interest
+Get sig requirements for administrative changes return uint Number of sigs required
+Calculate the percent variance between Benchmark value and Comparison value
+return The number of payments ever authorized even if they were canceled
+returns the number of items in the registry return number of items
+Adds ERC 20 tokens to user's token list
+Change bet expected start time
+Makes the coin tradable between users cannot be undone
+Function to check the current Tokens affected to bounty
+Generates a random number from 0 to range based on the last block hash
+To get the total supply of CTN coins
+Users want to know theirs or someones current bid
+Finish ICO and emit tokens for bounty advisors and team
+Returns the address where the sale contracts ether will be deposited
+send ETH from the contract to a given address
+function to be used in wallet to check whether a transfer transaction will be made by user or by zero fee transaction facility provided by owner
+Calculate the amount of tokens to process return uint256 of the amount of tokens required
+function to transfer ownership for Vanity URL by Owner
+Returns amount of ETH that person can release from this contract return amount of ETH in wei
+Function for the frontend to show ether waiting to be send to charity in contract
+The contract needs to be able to receive Ether from Kyber trades
+Distribute Token Sale Jackpot by minting token sale jackpot directly to 0x0 address and calling distributeJackpot function
+allows the owner to update the extensions contract address
+keep all the ether sent to this address
+only owner address can withdraw
+external user can release the tokens on their own when the time comes
+Changes the tokenURI from a minted item by its tokenId
+Transfer token balance to beneficiary
+useful to know the row count in contracts index
+Returns contributors address by uId
+Chech trade balance of account
+A contract attempts to get the coins
+Stores a spender's minimum token purchase amount for a given whitelisted tier
+return true if presale is active
+Extract a Sig struct from given bytes
+Creates a new NTToken instance
+function grantBackerToken Transfer backer tokens
+Gets AACount's balance return AACount balance
+get single investor invest information
+Report the price of 1 token of a bid order return The offered price for 1 token
+returns true if Exp is exactly zero
+return Details of the delegate
+Checks whether maxEtherCap is reached return true if max ether cap is reaced
+Allow bonus tokens to be withdrawn
+Burn function to burn a set amount of tokens
+Mints token Rewards to Forecasting contract
+Withdraw the funds Sends partial amount to the CJ Team
+Assert an order is valid and return its hash
+Owner accessor to get how much ETH is needed to send in order to change sell price to proposed price
+We use this function to store the total amount of tokens delivered
+set the addresses in store
+work is done execured by client
+Allows for marketing contributor's reward adding and withdrawl
+Create a cryptocurrency conversion using Oracalize and custom Shapeshift return address
+Needs to accept ETH dividends from Zethr token contract
+Function to transferOwnership of the LLG token
+return total count of registered ZTKChecks
+This function returns detailed information about the current game
+return retreive the current unitsOneEthCanBuy value
+Revokes the ban on transfers for given addresses
+Approve a request for manual token swaps
+the function tranfer tokens from RetailersAddress to investor
+Withdraw tokens from the reserve
+This function transfer ownership of contract from one entity to another
+Set release manager if token not released yet
+To send tokens that were accidentally sent to this contract
+Check if max cap was reached
+Creates a loan using an array of parameters return Id of the loan
+burns all remaining token supply
+disables purchasing with the given reserve token in case the reserve token got compromised can only be called by the owner note that selling is still enabled regardless of this flag and it cannot be disabled by the owner
+Deposit depositor's origin token from privateToken
+Replaces the animal with the given id with the last animal in the array
+Get what's in stake for a specific round
+Claim all vested tokens up to current date in behaviour of an user
+convert a random number to index of artworks list
+return s boolean success another contract attempts to spend tokens on your behalf
+calculation for the bonus for 1 million tokens
+return address of NTRY tokens owner
+Extend OpenZeppelin's StandardToken transferFrom function to store snapshot
+Internal function to add a new token or share holder
+Checks if an address is ops or admin
+Execute multiple order by given method id
+Remove contract from watch list
+addTickets allow admin add ticket to player for buy ticket fail
+Returns the total amount of capital allocated
+How much would you get if you claimed right now
+return The current mining target
+Return token ID of a Blockhash
+reverts if tokens could not be generated
+function to get all animals in costume not yet approved list
+Stores ETH funds for customer
+what is the total supply of the ech tokens
+Get a user's invested state return bool true if the user has already contributed
+Get info about specific round's investment by index
+Returns the token balance of user
+updateSignedDealsCountInBulk updates the signed deals count of Monetha users in bulk
+deadline for employees to exercise options
+Check remaining presale tokens after presale contract is deployed
+Internal function to burn a specific token Reverts if the token does not exist
+implemented function balanceOf of erc20 to know the balnce of any account
+return the total amount that will be shared with the miners
+allow owner to pause ico in case there is something wrong
+solhint disable next line max line length
+setting of availability of tokens transference for third party
+This function is used to unlock a user's already locked tokens only admin can invoke this function
+This can be used after the sale is over and tokens are unpaused
+return the item position when get it in all same items
+Set LAND for the auction
+Accept ETH transfers as contributions
+For getting how many transactions there are total
+return The number of owedTokens that will be borrowed
+function for external token purchase
+Set the Contract Donations Receiver Set to the Special Olympics Donations Address
+Get balance total of a request return balance
+return string with the ballot text
+Return tokens and weights solhint disable next line
+set address for Fundaria source of ether
+allows the owner to set the BNT converters address to wherever the contract registry currently points to
+Transfer tokens from other address
+Calculates how much ether one will receive in reward for burning tokens
+Replace the current mintkey with new mintkey
+Default method Processes all ETH that it receives and credits SBI tokens to sender according to current stage bonus
+For the trustee to revoke an earlier Issue Offer
+transfer function that is called when transaction target is a contract
+return manager The address of this contract's manager
+pause possibility of buying pack of tokens
+Returns unlockable tokens for a specified address for a specified reason
+Gets a position return quantity Quantity of shares held avgPrice Average price paid for shares
+Set minimum contribution for round User have to send more ether than minimum contribution
+public function to create a promotion team and assign it to some address
+functions for restricted token management Partner side
+Returns current XRM to ETH rate based on stage
+Abstract function to be implemented by advertiser's contract
+Team and tokens unfreeze after 365 days from contract deploy
+Allows admin to finalize the crowdsale
+Request outstanding ether balance from the target crowdsale
+Set the bonus percent for selected address
+release the locked tokens owned by a number of accounts
+Calculate amount of ONL tokens received for given ETH value return uint256 Amount of received ONL tokens
+return multisig Address of Multisig Wallet contract
+return available amount of bonuses to withdraw for selected distribution date
+helps to recover stucked tokens
+set only callbackGasLimit in settings for a given currency
+Perform a sell order at the exchange return Amount filled in this order
+For those that just want to donate to the whale
+Constructor is called only once and can not be called again
+Sets the api calls contract address
+Withdraw ethereum for a specified address
+for fund deposit make contract payable
+Gets the token ID at a given index of the tokens list of the requested owner return uint256 token ID at the given index of the tokens list owned by the requested address
+Number of tokens minted for bounty campaign
+STOP OR ENABLE CHANGE OF BOND EXPIRATION TIME
+The amount of Beercoins that can be spent by a user on behalf of another
+Get current tier id return uint256 Tier containing the block or zero if before start or last if after finished
+Gets the genome of the active hero
+Calculates and returns event hash return Event hash
+return bool If the purchase is valid or not
+get simus' locked amount of token
+Send any pending funds back to their owner
+users can buy UC Coin
+return The total amount of tokens
+Check whether sale is currently active
+This function will return all of the details of the Video Game Item
+Approve an address to have admin power to use transferFrom
+Increase percent with CBC Token
+Transfer tokens from salesAgent to account
+Clear current approval and transfer the ownership of a given token ID
+distribute bonus tokens to addresses who has bonus tokens
+allows to change the price of an empty block
+return The frozen status of the account
+Function to close the presale period2
+Refunds tokens for all voters
+Bank tokens Deposit token sale proceeds to ASC Account
+Fallback function for crowdsale contribution
+Depositor deposits payment amount only after it was signed by beneficiary
+return The balance AfriHealth Coin
+Allows only the contract owner to transfer ownership to someone else
+Get the name of the Asset type
+Broker functions Return all tracked broker addresses
+Fallback function can be used to buy CHR tokens
+Create presale contract where lock up period is given days
+Returns total amount of early purchases in CNY
+Owner can withdraw ether that was sent to this contract
+calculate total amount of carrots that have been purchased
+Token Crowd Sale Contract Halter
+to be called by owner after an year review
+Checks to see if the tokens they're about to purchase is below the cap for this stage
+Finds a level with specified price and returns an amount of available tokens on the level
+Calculates the maximum amount of vested tokens return Number of vested tokens to withdraw
+set minimum balance to make the transaction successfull
+allows token holders to withdar their dragons after timelock expires
+Converts a uint256 to string
+Calculates bonus if PreIco sales still not over return bonus value
+This function puts the initial gas limit
+Return the minimum of two uints return The smallest value or b if equal
+Extend parent behavior requiring contract not to be paused
+Function to finish ICO Sets ICO status to IcoFinished and emits tokens for funds
+Returns the terms contract address of a given issuance
+board members reserve the right to reject outside proposals for any reason
+Set token contract addresses of tokens involved in distribution
+Only the owner of the token smart contract can add allow token to be transfer before the trading has started
+return The subset of positive balance registered holders in the given range
+upgrades the converter to the latest version can only be called by the owner note that the owner needs to call acceptOwnership on the new converter after the upgrade
+Allow withdraw funds from smart contract
+Distribute tokens for non vesting reserve wallets
+return the transaction address and send the event as Approval
+check the token balance of any ethereum address
+Return the burn lot information at a given ID return id of the lot The address of the burn lot owner Primordial token amount in the burn lot
+Revokes editor rights of the passed address
+Get Creator TAO Setting info
+Check wallet on unfreeze tokens amount
+force withdrawal to many addresses
+return full investor info by address
+Returns size of uuids return size
+Owner can withdraw their accumulated dividends
+Returns the discount rate value
+Check if goal was reached Checks if the goal or time limit has been reached and ends the campaign
+Function set new preIco start time
+Transfer out any accidentally sent ERC20 tokens
+This function will return all of the details of the characters
+fetch the number of articles in the contract
+Token holders can call this function to cancel a redemption request they previously submitted using requestRedemption function
+change minimum nac in one order
+approve spender when not paused
+View status about the possibility of calling of SetMintTimeLimit function
+dealer can withdraw the remain ether after refund or closed
+Constructor for the Foreground token sale contract
+provides the price of an empty block
+give admin rights to address
+Returns the user id associated to a wallet
+used by a new manager to accept a management transfer
+Returns total prize pool size
+Allows owner to start the crowdsale from the time of execution until a specified stopTime
+change debating period by manager
+Buy tokens as generic fallback
+function to be called by owner to burn the remaing token and end the ico to be pressed only once for ending ICO
+Start the offering by sending all the tokens to STO contract return bool
+only allow call from owner of the address asking
+Get any token metadata by passing in the ID
+Invalidate a crowdsale purchase if something is wrong with it
+This function kills the token when Avalanche Blockchain is deployed
+Returns number of allowances tokens for given address return Returns remaining allowance for spender
+Allows anybody to upgrade tokens from these contract to the new one
+return The permission address of the item at the given index
+Joining a community allows the community to credit or debit your AVIV and VIP balances
+transfer to owner any tokens sent here by mistake
+Transfer toknes from Balncec to investBalance
+Interface for sale agent contract mint new tokens
+Update the constants of the network if necessary
+returns whether or note a note exists at a pitch and place
+Grant Beercoins to users who scanned bottle cap codes We hereby declare that this function is called if and only if our server registers valid code scans by the given users
+batch transfer with different amounts for each address
+Flush the currently pending Ether to Croupier
+Return registration status of an specified address
+Recovers public key of invitation key pair using
+Profits are the difference between balance and threshold
+called by the owner to AddToBlacklist
+Owner can set pre sale rate during the crowdsale
+Owner can update token information here
+Drain the remaining tokens of the crowdsale to the TeamWallet account Only for owner return the StandardToken
+Check if a specific sha256 hash has been used by another artwork before
+Returns the token's name
+Refund when something goes wrong
+Fallback function throws to avoid accidentally losing money
+Allows the owner to update the Minimum required Wei
+Gets the purchase records for a given address
+return number of frozen cells
+Method to burn all remanining tokens left with the sales contract after the sale has ended
+Tranfer token to any address he want to
+Allows the current owner to grant control of the contract to another account
+returns krown balance of given address
+Commit remaining dividends before transfer of tokens
+For Allocating Presold and Sale Via Fiat Deposits
+Allows the owner to set a new owner address
+check that the sender is a manager
+return the amount of token that user can purchase
+Get array with owner addresses that confirmed the transaction return Array of owner addresses that confirmed the transaction
+Allocate tokens to a crowdsale or early purchaser from the crowdsale share
+function through which owner can take back the tokens from the contract
+The AO set the TAOFamily Address
+Sets the address of the INNBC token
+Gets the max between two uint params return result
+Assign a role to a user globally
+Returns the length of the balances array for a swap
+A dispense feature to allocate some addresses with Jcash tokens calculation done using token count Can be called only by owner
+Update ether costs for various types of visits
+Series of getter functions for contract data
+Withdraw Ether from this contract to Multi sigin wallet
+convert to nums with you consume tickets
+Total number of tokens currently in the vault
+if your transfer to the note to this contract it will swap for the token
+return Total number of collections
+Called just before the token balance update
+check if input day is present in locked days
+return arbToken and low bytes from an HGame
+return Wheter the token is locked
+Update amount required to pass KYC
+always true for deregistered accounts
+Function to add multiple addresses to whitelist Can only be called by owner wallet address
+In case the ownership needs to be transferred
+Use this function to set memberId for the member
+Perminantly ends migration so it cannot be abused after it is deemed complete
+allows the requester to cancel their adoption request
+update min Ethereum to invest
+set the tradeable status of asset
+sends ETH to CTB team
+Calculates the bonus amount based on the contribution date
+Get available amount of tokens return uint256 Amount of unsold tokens
+Adds an approval for the specified account to spend money of the message sender up to the defined limit
+Allow the owner to burn the token from their accounts
+Called when investment was made
+return The address of the deposit address
+owner can drain tokens that are sent here by mistake
+Get the MC index given address
+Get the value stored of a int variable by the hash name
+Function to stop minting new tokens return A boolean that indicates if the operation was successful
+Change content data of a pixel
+return orderPrice Price as determined by an order
+Function to check the amount of tokens than an owner allowed to a spender
+Claims for refund if ICO finished and soft cap not reached
+Owner can stop crowdsale anytime
+Sell a specified amount of P3D for ether
+return True if the position is now closed
+for quick overview of possible sellerBalances to calculate the possible withdraw tokens
+return Maximum amount of makerToken
+default payable function when sending ether to this contract
+get base infomation of the seasons
+Set to 0x0 to not use the registered wallet
+this is a fix for the previous bug that didn't let us transfer directly to the next version
+Allows users to sign up with their own address
+function used to change the house fee percenthouse fee percent can only be lowered
+View the total balance of the token contract
+burn tokens if soft cap is not reached
+Returns the storage location of the total token supply
+Return number of token proxy contracts created so far
+Collect information about doge farm dividents amount Get tokens balance of the doge farm
+'owner' can set start time of pre funding
+set info url for weapons
+withdraw Snowflake balance to an external address
+Ability to turn of whitelist filtering after 24 hours
+Gets the total token supply return uint256 representing the total token supply
+Get the token balance for token owner
+Triggers the sale finalizations process
+return List of top winners
+ETH transferred from owner's address function to start minting MTC
+return The minimum quorum for proposals to pass
+Signals that the sale has reached its minimum funding goal
+return returns the current stage of sale
+owner will perform this action to payout the dividend and unfreeze the frozen accounts
+CrowdSale manager is able to change rate value during ICO
+Tokens are exchanged for shrimp by sending them to this contract with ApproveAndCall
+do not allow ether to enter
+override buytokens so all minting comes from Golix
+Returns the amount of tokens approved by the owner that can be transferred to the spender's account BK Ok
+place a bid for any piece in the edition bid has to be higher than current highest bid
+Return the total token supply
+Get sig requirements for major tx spends return uint256 Number of sigs required
+Function to check if crowdsale is open
+Set subscription end date can only be done by Rivetz
+Upgrade evil morty in case of upgrade needed
+Gets the update time for a board return the update timestamp in seconds
+Allows merchant to withdraw funds to it's own account
+return bool Status of operation
+"Check how many tokens ""investor"" can claim return uint How many tokens the investor can claim now"
+Transfer token for a specified address when if not paused and not locked account
+purchase promo pixels that cost nothing at start
+return whether proposed owns all of the cards
+Check that price update was requested more than max interval ago
+allow contract manager to close pre tge
+ETH Owner refund money BTC Owner gets 1 reputation
+You can also buy bonds on secondary market from other users
+This return total supply token
+returns 10 ads beginning from startindex
+Retrieve token balance for an account return balance The number of tokens in the subject account
+set gas for oraclize query
+Creates a checksum of the contents of the Estate
+Get number of doges since last hatch
+function to update an animal can only be called from owner wallet
+Prevent sending ether to this address
+Constructor function executed on contract creation
+WinRound Called when a player meets the snail requirement Gives his earnings to winner Pauses the game for 12 hours
+deploys a new CDPer instance sets custom owner of CDPer
+Allow to withdraw ERC20 token from contract
+overriding approve method to include the onlyPayloadSize check modifier
+The amount of bronze caps scanned so far
+Helper function to calculate the fee pool share if the earnings pool does not have a separate transcoder fee pool This implements calculation logic from a previous version of this library
+return true if the loan is considered defaulted
+function returning tokenID of the last token issued return uint256 the tokenID
+Transfer sales agent permissions to another account
+Returns the terms contract parameters of a given issuance
+function to resume the crowdsale if it is paused can only be called from owner wallet
+return true if the crowdsale has started
+transfer referrer bonus of invested
+called by the owner to enable method
+update token units a vip buyer gets per wei
+It can only purchase direct from SETITEE ONLY
+"Make it possible to send ETH to the contract with ""payable"" on the fallback function"
+Show last dividend period processed
+Using an explicit getter allows for function overloading
+current difficulty of the game
+process send profit in game
+low level token purchase DO NOT OVERRIDE
+Owner can transfer out any accidentally sent ERC20 tokens as long as they are not the sale tokens
+Rewards the referrer from given amount of funds
+Transforms a bytes32 value taken from MakerDAO's Medianizer contract into wei per usd rate return The wei per usd rate
+Returns the number of betting records left to be processed
+Fallback function forward investment request to the target contract
+Register an address to a uint allowing packing in orders
+get the token total supply
+Function to add an address to the controllers
+Start time of the crowdsale
+Owners funds are frozen on token creation
+Stores the number of tokens reserved for a destination
+get Gift property return properties of Gift
+Transfers tokens from an approved account
+Get an addresses KYC state
+emergency if the contarct get ERC20 tokens
+override hasClosed to add minimal value logic return true if remained to achieve less than minimal
+Returns total tokens allocated so far Constant function that simply returns a number return total tokens allocated so far
+withdraw if KYC not verified
+Owner can withdraw any accidentally sent eth
+Audit recommendationOwner can claim any tokens that transferedto this contract address
+adds a set of addresses to the whitelist
+Returns a Level by it's array index
+Parses n of type bytes to uint256
+Contract constructor function to start token paused for transfer
+withdraw some of the Ether to owner
+Falsely send Ether will be reverted
+We use this function to initially fund the contract
+Add the new NFT to the storage
+funds contract's balance to fund address
+return addresses of all channel managers
+Returns how many wei an investor has invested return Balance of the investor
+"Freeze player accounts for ""blackListFreezeTime"""
+Property owners can change the clickable link for when a user clicks on their Properties
+Allows the exec admin to set the registry exec id from which applications will be initialized
+add single address to whitelist
+Issue tokens for investors who paid in ether
+return tokenPrice Token price for the period
+The Amount of chicken alive
+return number of tokens currently belonging to the owner of given address
+Gets an owner by 0 indexed position
+Refund 'value' wei to sender
+fallback function which only receives ether from eUSD contract
+return the actual token price in wei
+remove Global Constraint return bool which represents a success
+get total price for minting a composition given the array of desired layers return uint256 price for minting a composition with the desired layers
+set new admin as admin of SEEDWhitelist contract
+check the locked but releasable balance for an address
+Function that impliments the transfer of tokens by token holders to other ERC20 COMPLIENT WALLETS
+we can call this function to check the status of both crowdsale and blocklord
+proposalAvatar return the avatar for a given proposal return uint total reputation supply
+Function used to set the flag isRedeemed to true can be called by addresses in the approvedAddressList
+Return the address of the contract owner
+Set allowance for another address
+Buy tokens to specified wallet
+This should only ever be false under extreme circumstances such as a potential vulnerability
+sends transactions TransferFrom by cycle in token address
+For existing plot holders to get added to Mini game
+the number of investors this session
+"Withdraw an ""amount"" of available tokens in the contract"
+revert on eth transfers to this contract
+Allows owner to record a purchase made outside of Ethereum blockchain
+return Remaining amount allowed to be transferred
+changes the active state of an item class by its class id
+Fallback function to handle ethereum that was send straight to the contract
+return true if bountyFunds function has ended
+Fallback function to receive ether contributions
+Get list of all registered auditorreturn Returns array of addresses registered as Auditor with register times
+return the revenue in wei
+mint the token to token owner
+internal function to convert a string to bytes32
+get subscriber dots remaining for specified provider endpoint
+fallback function to receive ether
+Mint token to one address
+Change the Veredictum backend contract address
+User sells KWHs and gets Ether
+Transferring ownership from this contract also destroys the contract
+Withdraw all ether in this contract back to the wallet
+Only owner function to deliver tokens for ICO investors
+ERC20 transfer with controller callback
+fetch a Record by it's data notarised data
+Get the contribution total of ETH from a contributor
+end of sale withdrawldon't keep our junk on blockchain
+Function needed for automated testing purposes
+Return ZTKCheck information by supplying beneficiary adddress
+Sets the registry value with the live BountyRegistry
+return The invested refundable balance
+return true if the transfer is done
+Override the base transferFrom class to enforce vesting requirement is met
+Whether or not the token is unlocked for transfers
+Add data for any user by administrator
+Approve specified address to make transfers in lock up period
+Returns the ETH cost of an order
+Finalize liability smart contract assigned to this lighthouse
+Swap out TrueUSD's address lists
+Allows a new controllers to be added
+Function is called by contributor to refund payments if crowdsale failed to reach soft cap
+return Whether the proposal was ordered and the proposal amount sent or not
+Gets the bonus in percents for the specified sum
+Owner can disable minting forever and ever
+player may withdraw tokens after the timelock period
+Returns the total number of tokens available for sale
+Construct the managed utility token
+setup roles for new Sgame token
+set after deployment of Registrar contract useful to know the row count in artworks index
+View function that shows current token price value
+Withdraw all profit to the owner
+Get tokens balance of the doge farm
+Set prices for specific blocks
+Check if a sha256 hash is registered
+Set size of current week tokens pool
+CALLED BY ICO OPERATOR TO APPLY WHITELIST AND PRICE OF FUNDING ROUND
+Called as a sanity check to make sure we have linked the core contract
+Function to set current token price
+return bool canceled indicating if the sale is canceled or not
+withdrawal can only occur after deposit time is exceeded
+Called after setMigrationAgent function to make sure that a new contract address is valid
+called in case crowdsale succeeded
+get trading token contract address
+Call this method to let the contract to go into next period of sales
+include dead and alive chickens
+Changing the price by the owner of the emoji
+Presale stage0 begin date set presale start is possible only once
+Delete phase by its index
+Allows the owner or manager to replace the current manager
+Checks if the purchase is valid
+withdraw the contributed funds if the ICO has ended and the goal has not been reached
+Returns the number of tokens in contract
+check if two strings are equal in values
+return amount amount of tokens frozen in this cell thawTS unix timestamp at which tokens'll become available isKYCRequired it's required to pass KYC to spend tokens iff isKYCRequired is true
+Checks weiRaised value and returns bonus due to the percentage of that value to the cap return Bonus value
+check if the goal is reached
+return the beneficiary address that will receive the campaign payout
+Returns outcome count return Outcome count
+Method for unpausing token sale
+Maps the seed to the value within the execution id's storage
+Receives a donation in Ether
+Trading limited requires the token sale to have closed
+Method to view the current price for painting
+check whether is operation wallet
+query whois the owner address of the signature
+Gets tokens of owner return array with token ids
+Function to change the exchange rate
+withdraw stuck tokens only for owner
+Transfer tokens to another address
+check if the given spender has enough allowance of owner more than given amount
+Returns whether the specified token is owned return whether the token is owned
+ERC223 Transfer CKN Token With Data Function
+allow for selfdestruct possibility and sending funds to owner
+transferAndNotify based on an instruction signed offline
+Function to check if a contract is marked as a trusted one return A bool indicanting if the passed contract is considered as a trusted one
+and then communicate the contract in a single tx
+document actual remaining residual tokenscall function to terminate bonus
+Check if given address is frozen
+there is no way to revert that
+Destroy the tokens owned by a blacklisted account
+Function to receive payments or deposits
+calculate the result for upgrading pony
+date from which the proof is valid
+Transfer donations or accidentally received ERC20 tokens
+Internal function that sets management
+remove a burner role from an address
+Upgrade Microverse's components in case of upgrade needed
+Sets a store to be used by the manager
+Storage location of the crowdsale's start time
+Mints tokens for owner and for crowdsale participants
+Converts an hexstring to bytes
+Change the gas price limit
+Return the remaining sponsored gas slots
+function for requesting data from on chain provider
+sets avatar if no avatar was previously set
+Extend parent behavior requiring purchase to have minimum weiAmount and be within overall maxWeiAmount
+Return the convert lot information at a given ID return id of the lot The address of the convert lot owner Primordial token amount in the convert lot
+Allows owner to set new monetha address
+Allow funds to be sent to this contract if the sender is the owner or a super contract then it will do nothing
+modified standard crowdsale must be supplied presale and ico tiers for token purchase rates
+Allows the caller to check the balance that has not been released of the input address
+Update pool cap for tier 2
+just in case the contract is bust and can't pay should never be needed but who knows
+member function to mint time based vesting tokens to a beneficiary
+increase the amount of eth
+Cancel an already published order can only be canceled by seller or the contract owner
+Allow to migrate to next version of contract
+set minimal amount to be sent
+return True if approved by the receiver
+Internal function called to actually save the permission
+Tokens balance return balance amount
+Tenderly remove hand from ioucoin and place on another ioucoin
+Update available IOU to purchase
+Updates token fee for approving a transfer
+update token units a buyer gets per wei
+Pay all bonuses to all investors from last round
+end distribute winnings convenience to manage a growing array
+Permit manager to sweep any tokens that landed here
+Owner can salvage ERC20 tokens that may have been sent to the account
+Using this function a spender transfers tokens and make an owner of funds a participant of the operating Jackpot User sets the total transfer amount that includes the Jackpot reserving deposit
+adjust tranche for next cycle
+Logic for pricing of deeds
+function pay dividends to investors
+Set affiliate rate for level
+ComputeMyEggs Returns current player eggs
+Transfers the ownership of an Race from one address to another address
+Burn tokens which are not sold on previous stage
+Execute a token transfer of the full balance from the forwarder token to the parent address
+Tells the address of the current implementation return address of the current implementation
+Internal function to clear current approval of a given unicorn ID
+Allows market creator to close the markets by transferring all remaining outcome tokens to the creator
+This contract does not accept ETH
+Pay dividends internal with value
+Claims the ownership of a given unicorn ID
+return info about how much DTH the teller has staked
+Called by the owner to destroy contract
+returns tickets numbers for the current draw in the possession of specified address
+Owner can send ether balance in contract address
+Owner can delete an existing entry
+Send tokens to the array of beneficiaries by owner
+called by the owner to set a new rate
+returns the number of reserve tokens defined return number of reserve tokens
+Allow updating currency exchange rates even if time of exchange rate isn't known
+Returns true if the game is in waiting mode
+callable by other contracts to control economy
+Define amount of Kitten Coins to hold in order to get holder reward
+An account can unlock their 2y locked tokens 2y after token launch date
+Returns the amount of leap years before the given date
+Transfer the same amount of tokens to multiple beneficiaries
+return bool True if the tokens raised are bigger than the goal or false otherwise
+get data relating to escrow
+Initialize relevant crowdsale contract details
+refund back if not KYC approved
+sets the authorizer contract if the crowdsale hasn't started
+Validates parameters and starts crowdsale called by CrowdsaleController
+Allows token sale with parent token
+function to return the information of a single user
+Update Marriage status only if both partners have previously voted to update the prenup
+Return the id of the owned active token exchange
+Increase the amount of tokens that an owner allowed to a spender return Whether the approval was successful or not
+Returns the location of a provider's list of registered applications in storage
+Function to revert eth transfers to this contract
+Distibutes tokens based on provided lists of wallets and values
+Get Associated TAO Setting info
+Update of reservedWei for withdraw
+This function will return only the DBZ owner address of a specific hero
+allows the contract to accept ETH
+Burns the remainder of BBY owned by this contract MINUS locked tokens
+return Total number of snaps stored
+Create new instance of token contract
+Allow getting slots bankroll after 60 days only
+return address The address of song owner
+Burn specified number of GSCP tokens This function will be called once after all remaining tokens are transferred from smartcontract to owner wallet
+return tokens investors are due to recieve
+only be called in case the contract may need to be destroyed
+Called to indicate that a commissioner auction was canceled
+to send tokens for bitcoin bakers and bounty
+Get Royalty amount for given account
+convience function to disburse multiple payments in a single tx
+inputs encoding please reference github wiki
+Get manager for permission return address of the manager for the permission
+"Transfer the balance from token owner's account to ""to"" account Owner's account must have sufficient balance to transfer 0 value transfers are allowed"
+send tokens to specified wallet wallet
+Amount of tokens can be gained from given amount of funds
+Remove the address from whitelist
+Specify the time that a particular person's lock will be released
+allows to change the neighbour reward percentage
+command to start the auction
+Overriding all transfers to check if transfers are enabled
+add information about bonus wei ownership
+internal function to convert a hash to an eth signed message and then recover the signature and check it against the bouncer role return bool
+return true if crowdsale current lot event has ended
+next round we set a new staking perioud
+check if user and casino agree on the number of cards
+Burn away the specified amount of VenusCoin tokens
+Remove an addresses from the whitelist
+Transfers the unclaimed token amount for the given token and address
+returns the nth entry in the soulbook
+remove an address' access to this role
+The owner can transfer ownership
+send ether to the contract address With at least 200 000 gas
+must return true if crowdsale completed successfully
+Pause crowdsale in case of any problems
+CALLED BY INVESTOR TO RETRIEVE TOKENS
+Returns tokens locked for a specified address for a specified reason at a specific time
+Token owner can claim ETH from ICO sales
+Do the real transfer with out any condition checking
+need to check these params before start business
+this function allows distribution by the owner before the actual public sale starts
+Transfer ownership of a Property and reset their info
+allows the owner to execute the token's destroy function
+current stage number switches to the next stage if the time has come
+getMonthRelease is the function to get todays month realse
+manager votes for the action
+set discount bonus for game require is administrator
+gets number of redemptions done on a specific address
+fallback function can be used to receive funds and calculate dividends
+Freeze multiple accounts from making any transfers
+disable pay ETH to this contract
+Getting the SHPC from the contributor
+VIEW GETTERS READ WALLET STATE
+return amount of tokens left for participant with cap
+the fallback function can be used to send ether to increase the casino bankroll
+Used to update all the parameters of the economy in one go
+authorize a casino contract address to access the funds
+Tells whether an operator is approved by a given owner return bool whether the given operator is approved by the given owner
+Function to handle callback calls to contract
+get factory address for given country return Address of factory
+Current status of the contract
+current amount of jack pot 1
+Log contributors and their contributions
+Transfer dev tokens to vesting wallet
+the function tranfer tokens from MarketingAddress to investor
+get user specified query of request
+Set current stage of campaign manually
+Sets the amount of gas allowed to investors
+check Eth balance of this contract
+Returns wei invested by specific amount
+To transfer tokens by proxy
+return returns the claim ABI solidity method for this claim
+Internal function to clear current approval of a given token ID
+Uses transferFrom on the DAI token contract to send DAI from manager to evaluator
+gets a line in the composition for viewing purposes and to prevent having to get the whole composition at once
+To check total remaining claimable amount
+Array to store all unpaid referal cards
+Returns the token total currently minted by the sale agent
+Receive dividends from Zethr and buy back in
+Allows admin to mint tokens
+Change the associated contract to a new address
+FUNCTIONS THAT WONT BE USED FREQUENTLY
+need to be called before the ICO to set ether price give to 8 decimal places
+Report the user address of a bid order return The address of the user placing the order
+internal usage to get index of holder in group return index of holder at array
+Returns the user id associated to a wallet as a unsigned integer
+Method to view the current Ethereum stored in the contract
+Should be called by AddressDeployer smart contract
+Get number of wallet owners return uint Number of owners
+Function to give tokens to others users who have bought Genbby tokens return A boolean that indicates if the operation was successful
+everyone is able to withdraw his own money if no softcap
+Minimum goal was reached return true if the crowdsale has raised enough money to be a succes
+Update token Name and symbol
+Queue up dice session so that it can be processed by others
+Sets unlock for given allocation address
+get the amount of tokens a user would receive for a specific amount of ether
+function to check percentage of goal achieved
+Function to unfreeze an account form frozen state
+Set new user bonus amount
+fallback function to prevent any ether to be sent to this contract
+Should be used only by Profiterole contract
+changeTotalSupply is the function used to variate the variable totalAllocatedTokens
+Distribute presold tokens and bonus tokens to investors
+Returns the count of buildings for a city
+Can be used as a promotional tool ONLY in case of net unpopularity
+Function to unpause transfer restriction
+return cumulative score total ratings
+when user upload documents administrator will call this function
+return False if it's still open
+get a wallet address by the account address and the index
+Get max number of wallet owners return uint Maximum number of owners
+Get the balance of the specified address return The balance
+creates a new refid if address has none
+Return true iff the assignments are closed and there are no restricted tokens left
+Refund if ICO won't reach min cap
+Allows anyone to transfer the MOO tokens once trading has started
+Change dates before crowdsale has started
+Encodes the string representation of a uint8 into bytes
+recordDealCancelReason creates an event of not paid deal that was cancelled
+check fund controls before forwarding call to standard token allowance spending function
+Function to burn tokens return A boolean that indicates if operation was successful
+Get IAC token balance for provided address
+Check if it is safe to add two numbers
+airdrop tokens for a specified addresses
+return uint The unsigned value of the ASCII string
+returns the ERC20 token balance of the given address
+Approve transfer of tokens manually return bool success
+returns the immediate owner of the token
+Increment the number of shares for a member
+Function to prevent targets from sending or receiving tokens by setting Unix times
+this serves as a lookup for new monsters to be generated since all monsters of the same id share the base stats also makes it possible to only store the monsterId on core and change this one during evolution process to save gas and additional transactions
+Transfer tokens from one address to anther when if not paused and not locked account
+Allows the owner to update the monnth on the contract
+approve all an owner's pixels to be managed by an address
+Transfers the collected fees to the owner
+Fallback function for deposit and blessing income
+Withdraws the money to be spent to Blind Croupier Project needs
+start function to start crowdsale for contribution
+An external method that get infomation of the fighter
+keep any ether sent to this address
+returns the number of asset events that has happened to an asset item
+Returns minimal amount to wager to return a profit in case of max win
+A set of functions to get required variables
+Should promote registration of new affiliates
+return The two strings concatenated
+Add a new transaction to the transaction mapping return The transaction ID
+Increase the airdrop count to allow sweet humans asking for more beautiful Lemon Tokens
+function created to emit the ETH transfer event from the child contract only
+Name of the ERC20 token
+compute the fees return the expected amount of fees in wei
+Function for the frontend to show ether waiting to be send to fund in contract
+returns the total amount of LNC in circulationget displayed on the website whilst the crowd funding
+function for checking if crowdsale goal is reached
+Check if participant is allowed to contribute in current tier
+Override so that minting cannot be accidentally terminated
+Gets totalSupply return Total supply
+function for ticket sending from owner's address to designated address
+be sure to get the token ownerships
+Remove addresses from the whitelist
+increases length of the snake
+Change eth address of agency for create deal
+Method to remove accounts with Operator role
+We have to specify what version of compiler this code will compile with
+return the pixels owned by an address
+return the total reward balance of the member in question
+Whitelists a list of addresses
+withdraw available funds from contract
+Get the TripCoin balance of any address
+Voters agreed on proposed contract and Ethereum is being send to that contract
+Function to get ether from contract
+PLCCrowdsale fallback function for buying Tokens
+get total bets for every team
+Get the current hardCap for the current SaleState return The current hardCap
+Get security token offering smart contract details by the proposal index return Contract struct
+Will send all ETH in contract to the owner
+set the minimum team number
+Store an image string and get back a numerical identifier
+remove owned tokens from circulation and destory them
+Storage location of the minimum amount of tokens allowed to be purchased
+Allows the owner of the contract to change the bonus
+This generates a public event on the blockchain that will notify clients
+Function which tranforms CHF softcap to weis
+Returns user details by user name
+Gets the token name return string representing the token name
+allow owner to add addresse to transfer tokens
+Allowing owner to transfer the money rasied to the wallet address
+Function to calculates bonuses return bonus value
+Do this after we provide god to you select
+Add spender to whitelist of spenders for approveAndCall
+Allow owner to force rate update
+Edits data or active boolean of an entity that the msg sender is an owner of This can be used to activate or deactivate an entity
+return Amount of owedTokens pulled from the lender
+Returns the allowance of an address for another address Additional token functions
+Will get the Direct Offers Comission Ratio
+to get the withdrawal address
+Mint coins for a multiple accounts
+New endpoint that sets pubKey as well
+Token owner calls this function to start profit distribution round
+function that sells available tokens
+Add a new NameTAOInfo return true on success
+Find closest tier id to given block return uint256 Tier containing the block or zero if before start or last if after finished
+Resolve percent rate for deposit
+return the transaction address and send the event as Transfer
+Number of BBD tokens on exchange
+player send crystals to the pot
+get the bet numbers of a specific choice
+get token amount rewarded to participant in specified round
+add genesis cats in groups of 16
+stop function to stop crowdsale for contribution
+add account to allow calling of transferIXT
+Only if the user has violated the advertising rules
+Total cumulative charity for all campaigns
+function that enables to add one off additional text to the token
+change owner for child contract
+Command for owner to start crowdsale
+get count of deposites for 1 user
+Checks if the maximum goal was reached
+Will generate both a FighterCreated event
+function called to forbid a player from claiming all past rewards
+return Array of community logic contract addresses
+Check if the user is buying above the required minimum
+function that is called when transaction target is a contractOnly used for recycling NVTs
+Payable function for take prize
+Get balance of specific address
+Transfer tokens from one address to another
+it will check amount of token delegated to spender by owner return return uint256 amount of tokens left with delegator
+Function to set allowed from new Token
+query detail of one GreedyCoin
+Use 1 super privilege to permanently own a company
+return The amount of makerToken received
+Logs the data request with the requested ID
+show a player's allocated tokens
+These orders are expected to settle immediately
+use to exchange other token
+Gets the balance of the specified address overrriden from previous to save gas return uint256 representing the amount owned by the passed address
+allow sending eth to the contract
+Transfer the balance from token owner's account to user account
+check if a player has referral bonuses from a previous round that have yet to be recorded
+Transfer ownership and transfer account balance
+function to pause the contract can only be called from owner wallet
+send the rest of the tokens after the crowdsale end and send to contributors address
+withdrwaw call for refunding balance acumilated by payee
+Calculate dev fee in game
+deposit will be transfered to the main pool in the parent contract
+Get the number of markets return uint
+check how many TMX Global Tokens a spender is allowed to spend from an owner
+return Whether the transfer was successful or not Ham de gui balance to mot dia chi nao do tu TheSun
+Report the amount of tokens of an ask order return The amount of tokens offered
+override transfer token for a specified address to add onlyWhenTransferEnabled
+function grantFoundationToken Transfer foundation tokens
+return number of tokens and duration in blocks
+Allows the owner of the contract to set the token address
+amount of block since core contract is deployed
+function to check if a proposal code matches
+Distribute token to multiple address
+Whitelist Many user address at once only Owner can do this It will require maximum of 150 addresses to prevent block gas limit max out and DoS attack It will add user address in whitelisted mapping
+Called by bZx after a borrower has withdrawn excess collateral token for an open loan return Successful execution of the function
+shorthand for public function and a property
+Enable tokens transfers to allow tokens to be traded
+Set the rate of ETH EUR
+Charge a fee in protocol tokens
+Only owner is allowed to do this
+Returns the total token supply
+Prevent further creation of tokens
+Function for the Crowdfund to transfer tokens
+Get dividends from hourglass contract
+Sets the new conversion rate
+Function called by closeAgreementWithTimeout or closeAgreement to disperse payouts
+iternal method returns discount tokens amount
+get minimal balance to maintain in contract
+max total number of tokens
+set the bonus of the game
+Updates the current bid price according to the rules
+Amount of blocks left to the end of this stage of TGR
+Update node status if children sum amount is enough
+return true if crowdsale event has ended or cap is reached
+Withdraw collected ether to ethWallet
+God can set a new blind auctions contract
+function that is called when transaction target is a contractOnly used for recycling NSPs
+override for get eth only after finalization
+timestamp when token claim is enabled
+User can get their ether back if crowdsale didn't meet it's requirement
+Function called by apps to check ACL on kernel or to check permission status return boolean indicating whether the ACL allows the role or not
+Set an upgrade agent that handles
+Lock the vault for the three wallets
+need to set this param before start business
+Function to pause ICO Sets ICO status to Paused
+changes the current gen of all stars by importance
+sets TGE to pass agent when sale is finished
+Set the bonus percent for each purchase
+calculate fee including special promotions
+view current price of tokens
+return Total amount of burned tokens
+get the remain unrleased tokens of the locked stages of an account
+well anyone can deposit to the contract for the experiment
+Reject all ERC23 compatible tokens
+Remove address from whiteList by whiteListOwner
+return The combined total drp supply
+Returns list of transaction IDs in defined range return Returns array of transaction IDs
+Allows qualified crowdsale partner to purchase Star Tokens
+The latest price for pressing the button
+attach many addresses to many users
+set upgrade gems for each level up and each 10 level up
+Returns the version details for the given contract and version
+Sets the variables related to the Token
+Used when a user logs out or loses connection with the DApp
+Send tokens to the specified address return excess coins executed by CRM
+transfer token for a specified contract address
+Get fashion attrs by tokenId
+Returns the topics for a crowdsale configuration event
+return if the presale is open
+XRT emission value for consumed gas
+inline assembly function to check if the address is a contract or not
+get influence by token return tavern Tavern contract address influence is
+Returns true if the game is in running mode
+Allows anyone to transfer the Reporter tokens once trading has started
+List all of the CryptoBeasties token Ids held in the Storage Contract
+tell the receivers that the sale has begun
+This function is used to transfer ether to particular address
+This function will call direct from Natee Contract To deduct Warrant
+return high and low words of x y
+Transfer TTC from learner to educator
+return Whether the locking was successful or not
+Update all MC's status
+This function show unpayed percent of deposit
+Notifies about the ownership transfer Constrctor function
+Owner can take ETH from contract
+creates a number of instances of ChildDeposit contracts
+Add contract address to tokenFallbackWhiteList
+Returns true if the registry looks ready
+completion of operation with safe keys
+Terminate the Affiliate contract and destroy it
+Allows merchant or Monetha to initiate exchange of funds by withdrawing funds to deposit address of the exchange
+fallback function to send ether to for Crowd sale
+This function will return only the price of a specific Video Game Item
+allows to participants reward their tokens from the current round
+get the total number of contributions made a sender
+Take all oraclize ether to contract owner andstop automatically update
+Update the contributions contract states
+List all token Ids that can be transfered return array of token IDs
+AP Ok Propose ownership transfer
+in case of error when assigning scientist to given element
+Change exchange rate of ether to tokens
+Add to 1y locked balances and totalSupply
+return Whether the proxy is executed
+Check the balance of a Beercoin user
+MyDividends Return contract's current dividends including referral bonus
+get ending time of the last bonus
+This function will be used to update the details of DBZ hero details by the contract creator
+remove a address from pools
