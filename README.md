@@ -25,7 +25,7 @@ In the data folder, we store the data sets after processing, including the train
 │ │
 │ ├── model(GraphCodeBert vector)
 │ │
-│ ├── inspection notes(Score records of three volunteers on https://zenodo.org/records/15093887)  
+│ ├── inspection notes(Score records of three volunteers on https://zenodo.org/records/17091069)  
 ```
 
 ## About the Models
@@ -38,7 +38,7 @@ Our work is mainly divided into retrieval model and large language model.
 - bert_whitening.py is a file operated with GraphCodeBert+whitening.
 - SmartIRCOT.py retrieves few shot <function, comment> pairs.
 - BM25Retrieve.py uses the BM25 algorithm for retrieval.
-- MLMGraphCodebert.py is used for MLM (Masked Language Modeling) fine-tuning GraphCodeBert, and the fine-tuning results are saved in https://zenodo.org/records/15093887.
+- MLMGraphCodebert.py is used for MLM (Masked Language Modeling) fine-tuning GraphCodeBert, and the fine-tuning results are saved in https://zenodo.org/records/17091069.
 
 
 
