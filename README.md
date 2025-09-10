@@ -9,8 +9,7 @@ This is the source code and dataset to the paper "Context-Aware Smart Contract C
  ## About the Datasets and folder's structure:
 In our work, we use data folder to store the data.
 
-1. In the data folder, we store the data sets after processing, including the training sets and test sets of code, comments.
-2. The raw data can be referenced from：https://figshare.com/s/e5f3f9371ca67a63c122
+In the data folder, we store the data sets after processing, including the training sets and test sets of code, comments.
 
 ```
   SIRCOT
