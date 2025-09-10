@@ -23,7 +23,7 @@ In the data folder, we store the data sets after processing, including the train
 │ │ ├── S-SSemSimEvaluation.py (evaluate S-S Sem.Sim.)
 │ │ ├── S-CSemSimEvaluation (evaluate S-C Sem.Sim.)
 │ │
-│ ├── model(GraphCodeBert vector, )
+│ ├── model(GraphCodeBert vector)
 │ │
 │ ├── inspection notes(Score records of three volunteers on https://zenodo.org/records/15093887)  
 ```
